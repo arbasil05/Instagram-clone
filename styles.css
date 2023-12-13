@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'poppins';
+}
+
+.sidebar{
+    height: 100vh;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    border-right: solid 1px black;
+    padding: 0px 20px;
+    background-color: white;
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.logo:hover{
+    color: red;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 10px;
+
+}
+.instagram{
+    width: 150px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.icons p{
+    margin-top: 28px;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.more p{
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.box{
+    height: 600px;
+    width: 400px;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px; 
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading i{
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.image_1{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_1.png);
+    background-size: cover;
+    background-position: -60px;
+}
+.image_2{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_2.png);
+    background-size: cover;
+    background-position: -80px;
+}
+.image_3{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_3.png);
+    background-size: cover;
+    background-position: -80px;
+}
+.image_4{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_4.png);
+    background-size: cover;
+    background-position: -80px;
+}
+.image_5{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_5.png);
+    background-size: cover;
+    background-position: -50px;
+}
+.image_6{
+    height: 700px;
+    width: 400px;
+    border: none;
+    background-image: url(images/posts/post_6.png);
+    background-size: cover;
+    background-position: 0px;
+
+}
+.username{
+    font-weight: 500;
+
+}
+.description{
+    
+    font-size: 12px;
+    margin-top: 5px;
+}
+.comments{
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.fav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.fav i{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.story{
+    height: 101px;
+    width: 620px;
+    margin-left: auto;
+    margin-right:auto ;
+    border: none;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+
+}
+.story p{
+    font-size: 15px;
+    margin-left: 17px;
+}
+
+.circles_1{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_1 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
+.circles_2{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_2 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
+.circles_3{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_3 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
+.circles_4{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_4 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
+.circles_5{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_5 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
+.circles_6{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black;
+    border-radius: 50px;
+    margin-right: 20Px;
+    
+}
+.circles_6 img{
+    width: 98px;
+    margin-left: -11px;
+    margin-top: -5px;
+}
